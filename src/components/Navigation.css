@@ -1,0 +1,113 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Marcellus";
+
+}
+
+p {
+  font-family: "Jost";
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #220336;
+}
+
+.navbar li a {
+  font-family: Jost;
+  font-size: 20px;
+}
+
+.navbar li a:active {
+  color: #FF7E5F;
+  border-bottom: 2px solid #FF7E5F;
+}
+
+.navbar li a:hover {
+  color: #FF7E5F;
+}
+
+.btn-prim {
+  background: linear-gradient(135deg, #6A11CB, #4e0365); 
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 50px; 
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+.btn-prim:hover {
+  background: linear-gradient(135deg, #FF7E5F, #FEB47B);
+  transform: scale(1.1); 
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-sec{
+  background: linear-gradient(135deg, #FF7E5F, #FEB47B);
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 30px; 
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+
+
+.footer_wrapper {
+  background: linear-gradient(135deg, #6A11CB, #4e0365); 
+  padding: 5% 0 5% 0;
+}
+
+.footer_wrapper .copyright-section {
+  background: linear-gradient(135deg, #6A11CB, #4e0365); 
+  padding: 1.10rem 0 .3125rem;
+  text-align: center;
+}
+
+.links {
+  list-style: none;
+}
+.links a{
+  color: #fff;
+}
+.footer-link {
+  list-style: none;
+  color: #ceeef8;
+}
+.contact-info a{
+  color: #fff;
+}
+
+.introduction {
+  background-color: #220336;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.introduction .container{
+  margin-top: 15px;
+}
+.introduction .container .image2{
+  width: 500px;
+  height: 300px;
+  border: 5px solid #FF7E5F;
+}
+
